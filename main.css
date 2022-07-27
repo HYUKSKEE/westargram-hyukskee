@@ -154,9 +154,25 @@
   padding: 10px;
 }
 
+.comment-input-wrap {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  margin-top: 5px;
+  border-top: 1px solid #efefef;
+}
+
+.comment-input-wrap button {
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 900;
+  color: #0095f6;
+  background-color: rgba(178, 164, 255, 0.2);
+}
+
 .article-comment input {
   width: 470px;
-  margin-top: 10px;
   outline: none;
   border: none;
 }
