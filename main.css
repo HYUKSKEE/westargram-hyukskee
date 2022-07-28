@@ -154,7 +154,38 @@
   padding: 10px;
 }
 
-.comment-input-wrap {
+/*댓글 li style*/
+.new-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*댓글 li 삭제 button style*/
+#delete-button {
+  border: none;
+  font-size: 16px;
+  font-weight: 900;
+  color: white;
+  background-color: white;
+}
+
+#delete-button:hover {
+  font-size: 17px;
+  color: red;
+  cursor: pointer;
+}
+
+/*댓글 li 좋아요 button style*/
+.like-button {
+  border: none;
+  font-size: 17px;
+  font-weight: 900;
+  color: black;
+  background-color: white;
+}
+
+.comment-input-wrap form {
   display: flex;
   align-items: center;
   padding-top: 5px;

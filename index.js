@@ -1,12 +1,12 @@
 const inputForm = document.querySelector(".inputForm");
 const passwordInput = document.getElementById("pw-input");
 const loginButton = document.getElementById("login-button");
-/* console.log(inputForm[0]); */
 
 function activateLogin() {
   const idValue = inputForm[0].value;
   const passWordValue = inputForm[1].value;
-  const ableCondition = idValue.length > 0 && passWordValue.length > 0;
+  const ableCondition =
+    idValue.indexOf("@") !== -1 && passWordValue.length >= 5;
   const disableCondition = idValue.length === 0 || passWordValue.length === 0;
 
   if (disableCondition) {
